@@ -1,0 +1,17 @@
+During the last year in school we needed to do a practise exam project.
+
+I went on and decided to control a 'clay-pigeon-thrower' mounted on
+an elevator on old telco service truck using FreeBSD and a PCI-based
+digital I/O card from AdLink.
+The thrower device spins around and can shoot out "clay pigeons" at
+different angels and heights.
+Good for practising shooting on!
+
+This resulted in a FreeBSD kernel mode driver for the AdLink I/O card
+aswell as an X11 GTK application to control the thrower.
+
+It's been in service since 2001 and still is as of June, 2009.
+More info at http://www.jaktservice.com
+
+Pictures of the thrower in action are available at:
+http://www.jaktservice.com/lerduveskytte.html

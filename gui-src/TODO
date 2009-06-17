@@ -1,0 +1,49 @@
+* Progressmeter för antalet instruktioner
+* / monterat readonly -> xdm funkar inte (kan inte chowna pty).
+  -- kan nog lösas med allting på en ramdisk..
+
+* Fixa till backup/restore via meny för instruktionerna.
+* Uppdatera stats även för skytt A-F i update_skytt_stats() ?
++ Fixa till placement för knappat (progedit) + in/ut debugfönster
++ Statusbaren där nere.
++ Man ska kunna välja 'ändra' nuvarande program
+* Fixa till mainguiet
++ Simuleringstimern stoppar inte
+* Allt resetas när man stänger debugfönstret
+* Stäng av spännarn vid sista utkastet
++ Man ska kunna ändra programmet man har valt för tillfället.
+* Spara göres på programmet utan att ruta poppar upp om man valde ändra.
+* Ingång för NÖDSTOPP (resettar utgångar + dödar program)
+* Ingång för manuell skjutning
+* Styrning: vanlig eller med knapp (meny)
+* Program för att bygga program i windows / excel.
+* Man ska kunna ta bort program också.
+
+-- Resetta allting vid start. fråga först!
+
+Kolla alla XXX.
+-- Fixa ett avancerat-fönster där man kan ställa in alla variabler, sätta debug,  etc.
+
+
+Fixa så att GUI pingar en daemon som resettar utgångar om den inte får 
+ping reply från GUI programmet.
+
+
+Övrigt:
+Köra allting från CDROM/ro mountad HDD? Homedir + tmp ska vara en diskett.
+++ Boota med VESA logo
+Enkelt menysystem för att starta programmet.
+Dokumentation
+
+
+
+DUAL EXEC skapar konflikt med run->value = ... ok? 
+XXXX - fixa till!
+
+* --- 
+Spannaren, sista utskjutet:
+Kolla sist i adlink.c, samt i exec_* i program.c
+I callbacks.c så måste 
+   adlink_output(OUTPUT_ROTOR|OUTPUT_SPANNARE, ADLINK_CLEAR
+rättas till....
+

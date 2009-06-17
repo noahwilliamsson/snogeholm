@@ -1,0 +1,17 @@
+Requires:
++ Gtk+ v1.2
++ GNOME
++ GNU Make
++ Autoconf
++ Automake
++ Makedepend
+
+
+ENVIRONMENT
+	DEBUG=1			Turn on debugging
+	VIRTROTOR=1		Simulate the machine
+
+
+FILES
+	$HOME/.slimrc		Program configuration
+	$HOME/.slim/*		All programs

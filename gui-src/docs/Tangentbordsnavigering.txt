@@ -1,0 +1,14 @@
+Programeditorn: instruktionsändring:
+	Byt objekt med <TAB>.
+
+	Valmenyer aktiveras med <SPACE>, sen används pilarna för att
+	byta alternativ. Slutligen används <SPACE> igen för att bekräfta valet.
+	<ESC> avbryter ändringen i valmenyn.
+
+	Knapparna (OK, Avbryt, Ta bort) aktiveras med <SPACE>.
+
+	Snurrknappen kan man antingen skriva in ett värde i eller använda pilarna för att ändra.
+
+
+
+

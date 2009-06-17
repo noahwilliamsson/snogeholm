@@ -1,0 +1,8 @@
+:: Ta bort ett program
+Gå in i programeditorn (Program->nytt), ladda programmet du vill
+ta bort genom att välja det i dropdown menyn.
+
+Dubbelklicka sedan på varje instruktion, och välja ta bort.
+När alla instruktionerna är bort, välj spara programmet.
+Ändra inte på namnet på programmet, utan tryck bara OK.
+Programmet togs nu bort.

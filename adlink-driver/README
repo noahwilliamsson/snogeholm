@@ -1,0 +1,18 @@
+FreeBSD 4.0 driver for AdLink PCI digital I/O card
+(c) 2000-2001 noah williamsson <noah at hd.se>
+
+-- Installation:
+
+cp src/adlink.[ch] /sys/pci
+mkdir -p /sys/modules/adlink
+cp mod/Makefile /sys/modules/adlink
+cd /sys/modules/adlink
+ln -s ../../pci/adlink.c
+ln -s ../../pci/adlink.h
+mknod /dev/adlink0 c 42 0 root:wheel
+make clean all load
+
+-- Om allt går bra så ger 'dmesg|tail -1' följande:
+adlink0 port 0xe000-0xe0ff,0xdc00-0xdc0f,0xd800-0xd87f irq 9 at device 11.0 on pci0
+
+# make unload

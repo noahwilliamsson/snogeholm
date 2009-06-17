@@ -1,0 +1,40 @@
+Ingångar
+--------
+0 - 0 grader
+1 - Hemmaläge elevator
+2 - Fjärrstyrning?
+
+
+
+Utgångar
+--------
+1 - Snurra
+2 - MV Utkast
+3 - Elevator +
+4 - Elevator -
+
+
+
+PC		KNAPPAR
+start		rotor
+stopp		rotor
+start		programkörning
+stopp		programkörning
+reset		programkörning
+hämta		program
+spara		program
+
+
+
+Skytt nr 0 gör att två sista siffrorna anger paustid
+
+* lista med uppdrag
+* 1	1	04
+  Skytt Elev-v	Antal lerduvor
+* Rotor Av/På
+* Starta/Pausa/Resetta programkörning
+* Ställa in en kolumn med programkörningsregler
+  + Ladda/spara/ändra program
+* Optionmeny med sparade program
+* Kunna ställa in offsetvinkel på utkast 
+* Rita ut var på rotor

@@ -1,0 +1,2 @@
+DEBUG		Debugging på.
+VIRTROTOR	Virtuella rotortriggningssignaler.

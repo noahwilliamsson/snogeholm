@@ -1,0 +1,29 @@
+* Om man väljer ändra ett program, sen hämtar ett annat program och sen väljer
+  spara, så vill programmet spara med namnet satt till det första programmet!
+* Kolla upp varför spannare(0x01) finns, men inte spannare(0x00);
+* om man tar ändra på ett program så tänds en grön prick
+  i skyttdisplayen....
+
+* efter att en programkörning är klar  
+  ska green/röd arcarna resettas
+* 17 kommer upp på displayen
+* spännaren resettas då programmet skjuter sista skottet.
+  nästa gång man väljer kör så händer inget.
+* spännaren resettas då programmet skjuter sista skottet.
+  nästa gång man väljer kör så händer inget.
+
+
+* när man väljer ändra program så uppdateras
+  inte antal utdelade duvor.
+* nummerna på arcarna stämmer inte.
+* arcarna får inte samma text som instruktionen egentligen har!
+* fixade till inläsningen av programschemana, men är sparandet & /etc
+  konsistent?
+* Om man väljer ändra i menyn, så är det inte alltid programvalet står kvar på det det stod på från början.
+
+* stats uppdateras inte när man laddat ett program!
+* EN signal ska resetta alla utgångar! Eller när programmet dör.
+* Elev change utförs även om det bara är en ynklig liten pausinstruktion..
+* Man kan inte köra ett program igen direkt efter man kört det, utan måste återställa allting genom att välja ngt nytt i programvalet.
+* det går inte att inserta instruktioner
+* programmet kraschar om man väljer kör, återställ, pause.. 
